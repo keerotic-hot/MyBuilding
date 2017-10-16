@@ -273,6 +273,11 @@ MonoBehaviour:
   sizeX: 5
   sizeY: 6
   sizeZ: 5
+  Block: {fileID: 1454130206070088, guid: ba42d13bb3f7d48c8a576590bb91a46a, type: 2}
+  FirstFloorBlock: {fileID: 1260738568603644, guid: 9b1e0625561774724a68d2b7098b32cf,
+    type: 2}
+  GroundBlock: {fileID: 1072474556593916, guid: e4d3189d6b27c4d5589b06bc5ab99561,
+    type: 2}
   maxDistance: 1000
   blockMask: Block
 --- !u!114 &1416795424
@@ -335,7 +340,7 @@ Camera:
   m_GameObject: {fileID: 1551098184}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2

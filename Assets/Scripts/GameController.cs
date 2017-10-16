@@ -8,6 +8,10 @@ public class GameController : MonoBehaviour {
 	public int sizeY = 5;
 	public int sizeZ = 5;
 
+	public GameObject Block;
+	public GameObject FirstFloorBlock;
+	public GameObject GroundBlock;
+
 	private float maxX, minX;
 	private float maxY, minY;
 	private float maxZ, minZ;
@@ -17,16 +21,20 @@ public class GameController : MonoBehaviour {
 	public string blockMask = "Block";
 	private int blockMaskHash;
 
-	private CameraController cameraController;
+	private int numFloors;
+
+	private CameraController cameraController;	
+
+	private GameObject[] grounds;
+	private GameObject[,,] blocks;
+
 
 	void Start () {
 		cameraController = GetComponent<CameraController> ();
 
 		blockMaskHash = LayerMask.GetMask (blockMask);
 
-		//GetComponent<MeshRenderer> ().enabled = false;
-
-		int numFloors = sizeX * sizeZ;
+		numFloors = sizeX * sizeZ;
 		minX = -Mathf.Floor (sizeX / 2);
 		minZ = -Mathf.Floor (sizeZ / 2);
 		maxX = minX + sizeX - 1;
@@ -35,19 +43,49 @@ public class GameController : MonoBehaviour {
 		maxY = sizeY;
 
 		//Camera.main.transform.LookAt (Vector3.zero);
+
+		createGroundBlocks ();
+	}
+
+	void createGroundBlocks(){
+		GetComponent<MeshRenderer> ().enabled = false;
+
+		grounds = new GameObject[numFloors];
+		blocks = new GameObject[sizeX,sizeY,sizeZ];
+
+		for (int i = 0; i < numFloors; i++) {
+			float x = minX + (i % sizeX);
+			float z = minZ + Mathf.Floor (i / sizeZ);
+			grounds [i] = Instantiate (GroundBlock,transform);
+			grounds [i].transform.localPosition = new Vector3 (x, 0, z);
+		}
+
 	}
 
 	void Update(){
-		createBlock ();
-	}
-	
-	void createBlock () {
-		if (cameraController 
-		&& cameraController.dragging)
-			return;
-		
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 		RaycastHit hit;
 		Physics.Raycast (ray, out hit, maxDistance, blockMaskHash);
+
+		UpdateCursor (hit);
+
+		if (Input.GetMouseButtonUp (0) 
+		&& !cameraController.dragging) {
+			TryCreateBlock (hit);
+		}
+	}
+
+	void UpdateCursor(RaycastHit hit){
+	}
+	
+	void TryCreateBlock (RaycastHit hit) {
+		
+		if (hit.collider) {
+
+			Vector3 pos = hit.transform.position + hit.normal;
+
+			Debug.Log (pos);
+
+		}
 	}
 }
