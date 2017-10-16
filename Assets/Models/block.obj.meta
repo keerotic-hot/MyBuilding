@@ -68,6 +68,54 @@ ModelImporter:
     100120: WRJoin
     100122: WRWall
     100124: NorthWall
+    100126: BEJoin
+    100128: BEWall
+    100130: BNJoin
+    100132: BNWall
+    100134: Bottom.005
+    100136: Bottom.006
+    100138: Bottom.007
+    100140: Bottom.008
+    100142: BSJoin
+    100144: BSWall
+    100146: BWJoin
+    100148: BWWall
+    100150: EBCorner
+    100152: EBJoin
+    100154: EBWall
+    100156: ETCorner
+    100158: ETJoin
+    100160: ETWall
+    100162: NBCorner
+    100164: NBJoin
+    100166: NBWall
+    100168: NTCorner
+    100170: NTJoin
+    100172: NTWall
+    100174: SBCorner
+    100176: SBJoin
+    100178: SBWall
+    100180: STCorner
+    100182: STJoin
+    100184: STWall
+    100186: TEJoin
+    100188: TEWall
+    100190: TNJoin
+    100192: TNWall
+    100194: Top.005
+    100196: Top.006
+    100198: Top.007
+    100200: Top.008
+    100202: TSJoin
+    100204: TSWall
+    100206: TWJoin
+    100208: TWWall
+    100210: WBCorner
+    100212: WBJoin
+    100214: WBWall
+    100216: WTCorner
+    100218: WTJoin
+    100220: WTWall
     400000: //RootNode
     400002: default
     400004: Bottom
@@ -131,6 +179,54 @@ ModelImporter:
     400120: WRJoin
     400122: WRWall
     400124: NorthWall
+    400126: BEJoin
+    400128: BEWall
+    400130: BNJoin
+    400132: BNWall
+    400134: Bottom.005
+    400136: Bottom.006
+    400138: Bottom.007
+    400140: Bottom.008
+    400142: BSJoin
+    400144: BSWall
+    400146: BWJoin
+    400148: BWWall
+    400150: EBCorner
+    400152: EBJoin
+    400154: EBWall
+    400156: ETCorner
+    400158: ETJoin
+    400160: ETWall
+    400162: NBCorner
+    400164: NBJoin
+    400166: NBWall
+    400168: NTCorner
+    400170: NTJoin
+    400172: NTWall
+    400174: SBCorner
+    400176: SBJoin
+    400178: SBWall
+    400180: STCorner
+    400182: STJoin
+    400184: STWall
+    400186: TEJoin
+    400188: TEWall
+    400190: TNJoin
+    400192: TNWall
+    400194: Top.005
+    400196: Top.006
+    400198: Top.007
+    400200: Top.008
+    400202: TSJoin
+    400204: TSWall
+    400206: TWJoin
+    400208: TWWall
+    400210: WBCorner
+    400212: WBJoin
+    400214: WBWall
+    400216: WTCorner
+    400218: WTJoin
+    400220: WTWall
     2300000: default
     2300002: Bottom
     2300004: Corner
@@ -193,6 +289,54 @@ ModelImporter:
     2300118: WRJoin
     2300120: WRWall
     2300122: NorthWall
+    2300124: BEJoin
+    2300126: BEWall
+    2300128: BNJoin
+    2300130: BNWall
+    2300132: Bottom.005
+    2300134: Bottom.006
+    2300136: Bottom.007
+    2300138: Bottom.008
+    2300140: BSJoin
+    2300142: BSWall
+    2300144: BWJoin
+    2300146: BWWall
+    2300148: EBCorner
+    2300150: EBJoin
+    2300152: EBWall
+    2300154: ETCorner
+    2300156: ETJoin
+    2300158: ETWall
+    2300160: NBCorner
+    2300162: NBJoin
+    2300164: NBWall
+    2300166: NTCorner
+    2300168: NTJoin
+    2300170: NTWall
+    2300172: SBCorner
+    2300174: SBJoin
+    2300176: SBWall
+    2300178: STCorner
+    2300180: STJoin
+    2300182: STWall
+    2300184: TEJoin
+    2300186: TEWall
+    2300188: TNJoin
+    2300190: TNWall
+    2300192: Top.005
+    2300194: Top.006
+    2300196: Top.007
+    2300198: Top.008
+    2300200: TSJoin
+    2300202: TSWall
+    2300204: TWJoin
+    2300206: TWWall
+    2300208: WBCorner
+    2300210: WBJoin
+    2300212: WBWall
+    2300214: WTCorner
+    2300216: WTJoin
+    2300218: WTWall
     3300000: default
     3300002: Bottom
     3300004: Corner
@@ -255,6 +399,54 @@ ModelImporter:
     3300118: WRJoin
     3300120: WRWall
     3300122: NorthWall
+    3300124: BEJoin
+    3300126: BEWall
+    3300128: BNJoin
+    3300130: BNWall
+    3300132: Bottom.005
+    3300134: Bottom.006
+    3300136: Bottom.007
+    3300138: Bottom.008
+    3300140: BSJoin
+    3300142: BSWall
+    3300144: BWJoin
+    3300146: BWWall
+    3300148: EBCorner
+    3300150: EBJoin
+    3300152: EBWall
+    3300154: ETCorner
+    3300156: ETJoin
+    3300158: ETWall
+    3300160: NBCorner
+    3300162: NBJoin
+    3300164: NBWall
+    3300166: NTCorner
+    3300168: NTJoin
+    3300170: NTWall
+    3300172: SBCorner
+    3300174: SBJoin
+    3300176: SBWall
+    3300178: STCorner
+    3300180: STJoin
+    3300182: STWall
+    3300184: TEJoin
+    3300186: TEWall
+    3300188: TNJoin
+    3300190: TNWall
+    3300192: Top.005
+    3300194: Top.006
+    3300196: Top.007
+    3300198: Top.008
+    3300200: TSJoin
+    3300202: TSWall
+    3300204: TWJoin
+    3300206: TWWall
+    3300208: WBCorner
+    3300210: WBJoin
+    3300212: WBWall
+    3300214: WTCorner
+    3300216: WTJoin
+    3300218: WTWall
     4300000: default
     4300002: Bottom
     4300004: Corner
@@ -317,6 +509,54 @@ ModelImporter:
     4300118: WRJoin
     4300120: WRWall
     4300122: NorthWall
+    4300124: BEJoin
+    4300126: BEWall
+    4300128: BNJoin
+    4300130: BNWall
+    4300132: Bottom.005
+    4300134: Bottom.006
+    4300136: Bottom.007
+    4300138: Bottom.008
+    4300140: BSJoin
+    4300142: BSWall
+    4300144: BWJoin
+    4300146: BWWall
+    4300148: EBCorner
+    4300150: EBJoin
+    4300152: EBWall
+    4300154: ETCorner
+    4300156: ETJoin
+    4300158: ETWall
+    4300160: NBCorner
+    4300162: NBJoin
+    4300164: NBWall
+    4300166: NTCorner
+    4300168: NTJoin
+    4300170: NTWall
+    4300172: SBCorner
+    4300174: SBJoin
+    4300176: SBWall
+    4300178: STCorner
+    4300180: STJoin
+    4300182: STWall
+    4300184: TEJoin
+    4300186: TEWall
+    4300188: TNJoin
+    4300190: TNWall
+    4300192: Top.005
+    4300194: Top.006
+    4300196: Top.007
+    4300198: Top.008
+    4300200: TSJoin
+    4300202: TSWall
+    4300204: TWJoin
+    4300206: TWWall
+    4300208: WBCorner
+    4300210: WBJoin
+    4300212: WBWall
+    4300214: WTCorner
+    4300216: WTJoin
+    4300218: WTWall
   materials:
     importMaterials: 1
     materialName: 0

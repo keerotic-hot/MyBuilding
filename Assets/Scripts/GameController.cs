@@ -2,6 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public class Index3{
+	public int x{set; get;}
+	public int y{set; get;}
+	public int z{set; get;}
+
+	public override string ToString(){
+		return "Index3("+x + "," + y + "," + z+")";
+	}
+}
+
 public class GameController : MonoBehaviour {
 
 	public int sizeX = 5;
@@ -88,25 +98,53 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
-	Block CreateBlock(Vector3 pos){
-		int iX = (int)(pos.x - minX);
-		int iY = (int)(pos.y - minY);
-		int iZ = (int)(pos.z - minZ);
+	public Index3 PositionToIndex(Vector3 pos) {
+		Index3 index = new Index3();
+		index.x = (int)(pos.x - minX);
+		index.y = (int)(pos.y - minY);
+		index.z = (int)(pos.z - minZ);
+		return index;
+	}
 
-		if(iX >= 0 && iX < sizeX
-		&& iY >= 0 && iY < sizeY
-		&& iZ >= 0 && iZ < sizeZ) {
+	public Vector3 IndexToPosition(Index3 i){
+		return new Vector3 (i.x + minX, i.y + minY, i.z + minZ);
+	}
 
-			GameObject Obj = Block;
-			if (iY == 0)
-				Obj = FirstFloorBlock;
-
-			Block block = Instantiate (Obj,transform).GetComponent<Block> ();
-			block.transform.localPosition = pos;
-
-			return block;
+	public Block GetBlock(Index3 i){
+		if(i.x >= 0 && i.x < sizeX
+		&& i.y >= 0 && i.y < sizeY
+		&& i.z >= 0 && i.z < sizeZ) {
+			GameObject block = blocks [i.x, i.y, i.z];
+			if(block) return block.GetComponent<Block>();
 		}
-
 		return null;
+	}
+
+
+	Block CreateBlock(Index3 i){
+
+		if (i.x >= 0 && i.x < sizeX
+		   && i.y >= 0 && i.y < sizeY
+		   && i.z >= 0 && i.z < sizeZ) {
+
+			if (blocks [i.x, i.y, i.z] == null) {
+				GameObject Obj = Block;
+				if (i.y == 0)
+					Obj = FirstFloorBlock;
+				
+				Block block = Instantiate (Obj, transform).GetComponent<Block> ();
+				blocks [i.x, i.y, i.z] = block.gameObject;
+
+				block.transform.localPosition = IndexToPosition (i);
+				block.gameController = this;
+
+				return block;
+			}
+		}
+		return null;
+	}
+
+	Block CreateBlock(Vector3 pos){
+		return CreateBlock (PositionToIndex (pos));
 	}
 }
