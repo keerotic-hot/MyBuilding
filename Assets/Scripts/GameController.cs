@@ -82,10 +82,31 @@ public class GameController : MonoBehaviour {
 		
 		if (hit.collider) {
 
-			Vector3 pos = hit.transform.position + hit.normal;
+			Vector3 pos = hit.transform.localPosition + hit.normal;
 
-			Debug.Log (pos);
-
+			Block block = CreateBlock(pos);
 		}
+	}
+
+	Block CreateBlock(Vector3 pos){
+		int iX = (int)(pos.x - minX);
+		int iY = (int)(pos.y - minY);
+		int iZ = (int)(pos.z - minZ);
+
+		if(iX >= 0 && iX < sizeX
+		&& iY >= 0 && iY < sizeY
+		&& iZ >= 0 && iZ < sizeZ) {
+
+			GameObject Obj = Block;
+			if (iY == 0)
+				Obj = FirstFloorBlock;
+
+			Block block = Instantiate (Obj,transform).GetComponent<Block> ();
+			block.transform.localPosition = pos;
+
+			return block;
+		}
+
+		return null;
 	}
 }

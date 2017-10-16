@@ -29,8 +29,6 @@ public class CameraController : MonoBehaviour {
 				_dragging = true;
 			}
 			Camera.main.transform.RotateAround (Vector3.zero, Vector3.up, angle);
-		} else {
-			_dragging = false;
 		}
 	}
 }

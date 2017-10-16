@@ -17,6 +17,57 @@ ModelImporter:
     100018: Top
     100020: Wall
     100022: CornerLeft
+    100024: Bottom_BottomGEO
+    100026: EastWall_EastWallGEO
+    100028: ELJoin_ELJoinGEO
+    100030: ELWall_ELWallGEO
+    100032: ERJoin_ERJoinGEO
+    100034: ERWall_ERWallGEO
+    100036: NEWall_NEWallGEO
+    100038: NLJoin_NLJoinGEO
+    100040: NLWall_NLWallGEO
+    100042: NorthWall_NorrthWallGEO
+    100044: NRJoin_NRJoinGEO
+    100046: NRWall_NRWallGEO
+    100048: NWWall_NWWallGEO
+    100050: SEWall_SEWallGEO
+    100052: SLJoin_SLJoinGEO
+    100054: SLWall_SLWallGEO
+    100056: SouthWall_SouthWallGEO
+    100058: SRJoin_SRJoinGEO
+    100060: SRWall_SRWallGEO
+    100062: SWWall_SWWallGEO
+    100064: Top_TopGEO
+    100066: WestWall_WestWallGEO
+    100068: WLJoin_WLJoinGEO
+    100070: WLWall_WLWallGEO
+    100072: WRJoin_WRJoinGEO
+    100074: WRWall_WRWallGEO
+    100076: EastWall
+    100078: ELJoin
+    100080: ELWall
+    100082: ERJoin
+    100084: ERWall
+    100086: NEWall
+    100088: NLJoin
+    100090: NLWall
+    100092: NorthWall_NorrthWall
+    100094: NRJoin
+    100096: NRWall
+    100098: NWWall
+    100100: SEWall
+    100102: SLJoin
+    100104: SLWall
+    100106: SouthWall
+    100108: SRJoin
+    100110: SRWall
+    100112: SWWall
+    100114: WestWall
+    100116: WLJoin
+    100118: WLWall
+    100120: WRJoin
+    100122: WRWall
+    100124: NorthWall
     400000: //RootNode
     400002: default
     400004: Bottom
@@ -29,6 +80,57 @@ ModelImporter:
     400018: Top
     400020: Wall
     400022: CornerLeft
+    400024: Bottom_BottomGEO
+    400026: EastWall_EastWallGEO
+    400028: ELJoin_ELJoinGEO
+    400030: ELWall_ELWallGEO
+    400032: ERJoin_ERJoinGEO
+    400034: ERWall_ERWallGEO
+    400036: NEWall_NEWallGEO
+    400038: NLJoin_NLJoinGEO
+    400040: NLWall_NLWallGEO
+    400042: NorthWall_NorrthWallGEO
+    400044: NRJoin_NRJoinGEO
+    400046: NRWall_NRWallGEO
+    400048: NWWall_NWWallGEO
+    400050: SEWall_SEWallGEO
+    400052: SLJoin_SLJoinGEO
+    400054: SLWall_SLWallGEO
+    400056: SouthWall_SouthWallGEO
+    400058: SRJoin_SRJoinGEO
+    400060: SRWall_SRWallGEO
+    400062: SWWall_SWWallGEO
+    400064: Top_TopGEO
+    400066: WestWall_WestWallGEO
+    400068: WLJoin_WLJoinGEO
+    400070: WLWall_WLWallGEO
+    400072: WRJoin_WRJoinGEO
+    400074: WRWall_WRWallGEO
+    400076: EastWall
+    400078: ELJoin
+    400080: ELWall
+    400082: ERJoin
+    400084: ERWall
+    400086: NEWall
+    400088: NLJoin
+    400090: NLWall
+    400092: NorthWall_NorrthWall
+    400094: NRJoin
+    400096: NRWall
+    400098: NWWall
+    400100: SEWall
+    400102: SLJoin
+    400104: SLWall
+    400106: SouthWall
+    400108: SRJoin
+    400110: SRWall
+    400112: SWWall
+    400114: WestWall
+    400116: WLJoin
+    400118: WLWall
+    400120: WRJoin
+    400122: WRWall
+    400124: NorthWall
     2300000: default
     2300002: Bottom
     2300004: Corner
@@ -40,6 +142,57 @@ ModelImporter:
     2300016: Top
     2300018: Wall
     2300020: CornerLeft
+    2300022: Bottom_BottomGEO
+    2300024: EastWall_EastWallGEO
+    2300026: ELJoin_ELJoinGEO
+    2300028: ELWall_ELWallGEO
+    2300030: ERJoin_ERJoinGEO
+    2300032: ERWall_ERWallGEO
+    2300034: NEWall_NEWallGEO
+    2300036: NLJoin_NLJoinGEO
+    2300038: NLWall_NLWallGEO
+    2300040: NorthWall_NorrthWallGEO
+    2300042: NRJoin_NRJoinGEO
+    2300044: NRWall_NRWallGEO
+    2300046: NWWall_NWWallGEO
+    2300048: SEWall_SEWallGEO
+    2300050: SLJoin_SLJoinGEO
+    2300052: SLWall_SLWallGEO
+    2300054: SouthWall_SouthWallGEO
+    2300056: SRJoin_SRJoinGEO
+    2300058: SRWall_SRWallGEO
+    2300060: SWWall_SWWallGEO
+    2300062: Top_TopGEO
+    2300064: WestWall_WestWallGEO
+    2300066: WLJoin_WLJoinGEO
+    2300068: WLWall_WLWallGEO
+    2300070: WRJoin_WRJoinGEO
+    2300072: WRWall_WRWallGEO
+    2300074: EastWall
+    2300076: ELJoin
+    2300078: ELWall
+    2300080: ERJoin
+    2300082: ERWall
+    2300084: NEWall
+    2300086: NLJoin
+    2300088: NLWall
+    2300090: NorthWall_NorrthWall
+    2300092: NRJoin
+    2300094: NRWall
+    2300096: NWWall
+    2300098: SEWall
+    2300100: SLJoin
+    2300102: SLWall
+    2300104: SouthWall
+    2300106: SRJoin
+    2300108: SRWall
+    2300110: SWWall
+    2300112: WestWall
+    2300114: WLJoin
+    2300116: WLWall
+    2300118: WRJoin
+    2300120: WRWall
+    2300122: NorthWall
     3300000: default
     3300002: Bottom
     3300004: Corner
@@ -51,6 +204,57 @@ ModelImporter:
     3300016: Top
     3300018: Wall
     3300020: CornerLeft
+    3300022: Bottom_BottomGEO
+    3300024: EastWall_EastWallGEO
+    3300026: ELJoin_ELJoinGEO
+    3300028: ELWall_ELWallGEO
+    3300030: ERJoin_ERJoinGEO
+    3300032: ERWall_ERWallGEO
+    3300034: NEWall_NEWallGEO
+    3300036: NLJoin_NLJoinGEO
+    3300038: NLWall_NLWallGEO
+    3300040: NorthWall_NorrthWallGEO
+    3300042: NRJoin_NRJoinGEO
+    3300044: NRWall_NRWallGEO
+    3300046: NWWall_NWWallGEO
+    3300048: SEWall_SEWallGEO
+    3300050: SLJoin_SLJoinGEO
+    3300052: SLWall_SLWallGEO
+    3300054: SouthWall_SouthWallGEO
+    3300056: SRJoin_SRJoinGEO
+    3300058: SRWall_SRWallGEO
+    3300060: SWWall_SWWallGEO
+    3300062: Top_TopGEO
+    3300064: WestWall_WestWallGEO
+    3300066: WLJoin_WLJoinGEO
+    3300068: WLWall_WLWallGEO
+    3300070: WRJoin_WRJoinGEO
+    3300072: WRWall_WRWallGEO
+    3300074: EastWall
+    3300076: ELJoin
+    3300078: ELWall
+    3300080: ERJoin
+    3300082: ERWall
+    3300084: NEWall
+    3300086: NLJoin
+    3300088: NLWall
+    3300090: NorthWall_NorrthWall
+    3300092: NRJoin
+    3300094: NRWall
+    3300096: NWWall
+    3300098: SEWall
+    3300100: SLJoin
+    3300102: SLWall
+    3300104: SouthWall
+    3300106: SRJoin
+    3300108: SRWall
+    3300110: SWWall
+    3300112: WestWall
+    3300114: WLJoin
+    3300116: WLWall
+    3300118: WRJoin
+    3300120: WRWall
+    3300122: NorthWall
     4300000: default
     4300002: Bottom
     4300004: Corner
@@ -62,6 +266,57 @@ ModelImporter:
     4300016: Top
     4300018: Wall
     4300020: CornerLeft
+    4300022: Bottom_BottomGEO
+    4300024: EastWall_EastWallGEO
+    4300026: ELJoin_ELJoinGEO
+    4300028: ELWall_ELWallGEO
+    4300030: ERJoin_ERJoinGEO
+    4300032: ERWall_ERWallGEO
+    4300034: NEWall_NEWallGEO
+    4300036: NLJoin_NLJoinGEO
+    4300038: NLWall_NLWallGEO
+    4300040: NorthWall_NorrthWallGEO
+    4300042: NRJoin_NRJoinGEO
+    4300044: NRWall_NRWallGEO
+    4300046: NWWall_NWWallGEO
+    4300048: SEWall_SEWallGEO
+    4300050: SLJoin_SLJoinGEO
+    4300052: SLWall_SLWallGEO
+    4300054: SouthWall_SouthWallGEO
+    4300056: SRJoin_SRJoinGEO
+    4300058: SRWall_SRWallGEO
+    4300060: SWWall_SWWallGEO
+    4300062: Top_TopGEO
+    4300064: WestWall_WestWallGEO
+    4300066: WLJoin_WLJoinGEO
+    4300068: WLWall_WLWallGEO
+    4300070: WRJoin_WRJoinGEO
+    4300072: WRWall_WRWallGEO
+    4300074: EastWall
+    4300076: ELJoin
+    4300078: ELWall
+    4300080: ERJoin
+    4300082: ERWall
+    4300084: NEWall
+    4300086: NLJoin
+    4300088: NLWall
+    4300090: NorthWall_NorrthWall
+    4300092: NRJoin
+    4300094: NRWall
+    4300096: NWWall
+    4300098: SEWall
+    4300100: SLJoin
+    4300102: SLWall
+    4300104: SouthWall
+    4300106: SRJoin
+    4300108: SRWall
+    4300110: SWWall
+    4300112: WestWall
+    4300114: WLJoin
+    4300116: WLWall
+    4300118: WRJoin
+    4300120: WRWall
+    4300122: NorthWall
   materials:
     importMaterials: 1
     materialName: 0
