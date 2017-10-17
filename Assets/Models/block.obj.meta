@@ -116,6 +116,29 @@ ModelImporter:
     100216: WTCorner
     100218: WTJoin
     100220: WTWall
+    100222: BW
+    100224: EB
+    100226: ET
+    100228: NB
+    100230: NE_NEWall
+    100232: NEB
+    100234: NET
+    100236: NT
+    100238: NW
+    100240: NWB
+    100242: NWT
+    100244: SB
+    100246: SE
+    100248: SEB
+    100250: SET
+    100252: ST
+    100254: SW
+    100256: SWB
+    100258: SWT
+    100260: WT_WTCorner
+    100262: WT
+    100264: NE
+    100266: WB
     400000: //RootNode
     400002: default
     400004: Bottom
@@ -227,6 +250,29 @@ ModelImporter:
     400216: WTCorner
     400218: WTJoin
     400220: WTWall
+    400222: BW
+    400224: EB
+    400226: ET
+    400228: NB
+    400230: NE_NEWall
+    400232: NEB
+    400234: NET
+    400236: NT
+    400238: NW
+    400240: NWB
+    400242: NWT
+    400244: SB
+    400246: SE
+    400248: SEB
+    400250: SET
+    400252: ST
+    400254: SW
+    400256: SWB
+    400258: SWT
+    400260: WT_WTCorner
+    400262: WT
+    400264: NE
+    400266: WB
     2300000: default
     2300002: Bottom
     2300004: Corner
@@ -337,6 +383,29 @@ ModelImporter:
     2300214: WTCorner
     2300216: WTJoin
     2300218: WTWall
+    2300220: BW
+    2300222: EB
+    2300224: ET
+    2300226: NB
+    2300228: NE_NEWall
+    2300230: NEB
+    2300232: NET
+    2300234: NT
+    2300236: NW
+    2300238: NWB
+    2300240: NWT
+    2300242: SB
+    2300244: SE
+    2300246: SEB
+    2300248: SET
+    2300250: ST
+    2300252: SW
+    2300254: SWB
+    2300256: SWT
+    2300258: WT_WTCorner
+    2300260: WT
+    2300262: NE
+    2300264: WB
     3300000: default
     3300002: Bottom
     3300004: Corner
@@ -447,6 +516,29 @@ ModelImporter:
     3300214: WTCorner
     3300216: WTJoin
     3300218: WTWall
+    3300220: BW
+    3300222: EB
+    3300224: ET
+    3300226: NB
+    3300228: NE_NEWall
+    3300230: NEB
+    3300232: NET
+    3300234: NT
+    3300236: NW
+    3300238: NWB
+    3300240: NWT
+    3300242: SB
+    3300244: SE
+    3300246: SEB
+    3300248: SET
+    3300250: ST
+    3300252: SW
+    3300254: SWB
+    3300256: SWT
+    3300258: WT_WTCorner
+    3300260: WT
+    3300262: NE
+    3300264: WB
     4300000: default
     4300002: Bottom
     4300004: Corner
@@ -557,6 +649,29 @@ ModelImporter:
     4300214: WTCorner
     4300216: WTJoin
     4300218: WTWall
+    4300220: BW
+    4300222: EB
+    4300224: ET
+    4300226: NB
+    4300228: NE_NEWall
+    4300230: NEB
+    4300232: NET
+    4300234: NT
+    4300236: NW
+    4300238: NWB
+    4300240: NWT
+    4300242: SB
+    4300244: SE
+    4300246: SEB
+    4300248: SET
+    4300250: ST
+    4300252: SW
+    4300254: SWB
+    4300256: SWT
+    4300258: WT_WTCorner
+    4300260: WT
+    4300262: NE
+    4300264: WB
   materials:
     importMaterials: 1
     materialName: 0

@@ -257,18 +257,27 @@ public class Block : MonoBehaviour {
 		downWalls ["JEast"].SetActive (down != null && eb != null && east == null);
 		downWalls ["JWest"].SetActive (down != null && wb != null && west == null);
 
-		walls ["NEWall"].SetActive (north == null && east == null);
-		walls ["NWWall"].SetActive (north == null && west == null);
-		walls ["SEWall"].SetActive (south == null && east == null);
-		walls ["SWWall"].SetActive (south == null && west == null);
-		walls ["NTCorner"].SetActive (north == null && up == null);
-		walls ["NBCorner"].SetActive (north == null && down == null);
-		walls ["STCorner"].SetActive (south == null && up == null);
-		walls ["SBCorner"].SetActive (south == null && down == null);
-		walls ["ETCorner"].SetActive (east == null && up == null);
-		walls ["EBCorner"].SetActive (east == null && down == null);
-		walls ["WTCorner"].SetActive (west == null && up == null);
-		walls ["WBCorner"].SetActive (west == null && down == null);
+		walls ["NE"].SetActive (north == null && east == null);
+		walls ["NW"].SetActive (north == null && west == null);
+		walls ["SE"].SetActive (south == null && east == null);
+		walls ["SW"].SetActive (south == null && west == null);
+		walls ["NT"].SetActive (north == null && up == null);
+		walls ["NB"].SetActive (north == null && down == null);
+		walls ["ST"].SetActive (south == null && up == null);
+		walls ["SB"].SetActive (south == null && down == null);
+		walls ["ET"].SetActive (east == null && up == null);
+		walls ["EB"].SetActive (east == null && down == null);
+		walls ["WT"].SetActive (west == null && up == null);
+		walls ["WB"].SetActive (west == null && down == null);
+
+		walls ["NET"].SetActive (north == null && east == null && up == null);
+		walls ["NEB"].SetActive (north == null && east == null && down == null);
+		walls ["NWT"].SetActive (north == null && west == null && up == null);
+		walls ["NWB"].SetActive (north == null && west == null && down == null);
+		walls ["SET"].SetActive (south == null && east == null && up == null);
+		walls ["SEB"].SetActive (south == null && east == null && down == null);
+		walls ["SWT"].SetActive (south == null && west == null && up == null);
+		walls ["SWB"].SetActive (south == null && west == null && down == null);
 
 		if (chain) {
 			if(north != null) north.UpdateWalls ();
