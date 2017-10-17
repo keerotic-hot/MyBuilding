@@ -139,6 +139,30 @@ ModelImporter:
     100262: WT
     100264: NE
     100266: WB
+    100268: EBLWall
+    100270: EBRWall
+    100272: ETLWall
+    100274: ETRWall
+    100276: NBLWall
+    100278: NBRWall
+    100280: NEBWall
+    100282: NETWall
+    100284: NTLWall
+    100286: NTRWall
+    100288: NWBWall
+    100290: NWTWall
+    100292: SBLWall
+    100294: SBRWall
+    100296: SEBWall
+    100298: SETWall
+    100300: STLWall
+    100302: STRWall
+    100304: SWBWall
+    100306: SWTWall
+    100308: WBLWall
+    100310: WBRWall
+    100312: WTLWall
+    100314: WTRWall
     400000: //RootNode
     400002: default
     400004: Bottom
@@ -273,6 +297,30 @@ ModelImporter:
     400262: WT
     400264: NE
     400266: WB
+    400268: EBLWall
+    400270: EBRWall
+    400272: ETLWall
+    400274: ETRWall
+    400276: NBLWall
+    400278: NBRWall
+    400280: NEBWall
+    400282: NETWall
+    400284: NTLWall
+    400286: NTRWall
+    400288: NWBWall
+    400290: NWTWall
+    400292: SBLWall
+    400294: SBRWall
+    400296: SEBWall
+    400298: SETWall
+    400300: STLWall
+    400302: STRWall
+    400304: SWBWall
+    400306: SWTWall
+    400308: WBLWall
+    400310: WBRWall
+    400312: WTLWall
+    400314: WTRWall
     2300000: default
     2300002: Bottom
     2300004: Corner
@@ -406,6 +454,30 @@ ModelImporter:
     2300260: WT
     2300262: NE
     2300264: WB
+    2300266: EBLWall
+    2300268: EBRWall
+    2300270: ETLWall
+    2300272: ETRWall
+    2300274: NBLWall
+    2300276: NBRWall
+    2300278: NEBWall
+    2300280: NETWall
+    2300282: NTLWall
+    2300284: NTRWall
+    2300286: NWBWall
+    2300288: NWTWall
+    2300290: SBLWall
+    2300292: SBRWall
+    2300294: SEBWall
+    2300296: SETWall
+    2300298: STLWall
+    2300300: STRWall
+    2300302: SWBWall
+    2300304: SWTWall
+    2300306: WBLWall
+    2300308: WBRWall
+    2300310: WTLWall
+    2300312: WTRWall
     3300000: default
     3300002: Bottom
     3300004: Corner
@@ -539,6 +611,30 @@ ModelImporter:
     3300260: WT
     3300262: NE
     3300264: WB
+    3300266: EBLWall
+    3300268: EBRWall
+    3300270: ETLWall
+    3300272: ETRWall
+    3300274: NBLWall
+    3300276: NBRWall
+    3300278: NEBWall
+    3300280: NETWall
+    3300282: NTLWall
+    3300284: NTRWall
+    3300286: NWBWall
+    3300288: NWTWall
+    3300290: SBLWall
+    3300292: SBRWall
+    3300294: SEBWall
+    3300296: SETWall
+    3300298: STLWall
+    3300300: STRWall
+    3300302: SWBWall
+    3300304: SWTWall
+    3300306: WBLWall
+    3300308: WBRWall
+    3300310: WTLWall
+    3300312: WTRWall
     4300000: default
     4300002: Bottom
     4300004: Corner
@@ -672,6 +768,30 @@ ModelImporter:
     4300260: WT
     4300262: NE
     4300264: WB
+    4300266: EBLWall
+    4300268: EBRWall
+    4300270: ETLWall
+    4300272: ETRWall
+    4300274: NBLWall
+    4300276: NBRWall
+    4300278: NEBWall
+    4300280: NETWall
+    4300282: NTLWall
+    4300284: NTRWall
+    4300286: NWBWall
+    4300288: NWTWall
+    4300290: SBLWall
+    4300292: SBRWall
+    4300294: SEBWall
+    4300296: SETWall
+    4300298: STLWall
+    4300300: STRWall
+    4300302: SWBWall
+    4300304: SWTWall
+    4300306: WBLWall
+    4300308: WBRWall
+    4300310: WTLWall
+    4300312: WTRWall
   materials:
     importMaterials: 1
     materialName: 0

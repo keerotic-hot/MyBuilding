@@ -34,6 +34,10 @@ public class Block : MonoBehaviour {
 		northWalls.Add ("JRight", walls ["NRJoin"]);
 		northWalls.Add ("JTop", walls ["NTJoin"]);
 		northWalls.Add ("JBottom", walls ["NBJoin"]);
+		northWalls.Add ("TL", walls ["NTLWall"]);
+		northWalls.Add ("TR", walls ["NTRWall"]);
+		northWalls.Add ("BL", walls ["NBLWall"]);
+		northWalls.Add ("BR", walls ["NBRWall"]);
 
 		eastWalls = new Dictionary<string,GameObject> ();
 		eastWalls.Add ("Wall", walls ["EastWall"]);
@@ -45,6 +49,10 @@ public class Block : MonoBehaviour {
 		eastWalls.Add ("JRight", walls ["ERJoin"]);
 		eastWalls.Add ("JTop", walls ["ETJoin"]);
 		eastWalls.Add ("JBottom", walls ["EBJoin"]);
+		eastWalls.Add ("TL", walls ["ETLWall"]);
+		eastWalls.Add ("TR", walls ["ETRWall"]);
+		eastWalls.Add ("BL", walls ["EBLWall"]);
+		eastWalls.Add ("BR", walls ["EBRWall"]);
 
 		southWalls = new Dictionary<string,GameObject> ();
 		southWalls.Add ("Wall", walls ["SouthWall"]);
@@ -56,6 +64,10 @@ public class Block : MonoBehaviour {
 		southWalls.Add ("JRight", walls ["SRJoin"]);
 		southWalls.Add ("JTop", walls ["STJoin"]);
 		southWalls.Add ("JBottom", walls ["SBJoin"]);
+		southWalls.Add ("TL", walls ["STLWall"]);
+		southWalls.Add ("TR", walls ["STRWall"]);
+		southWalls.Add ("BL", walls ["SBLWall"]);
+		southWalls.Add ("BR", walls ["SBRWall"]);
 
 		westWalls = new Dictionary<string,GameObject> ();
 		westWalls.Add ("Wall", walls ["WestWall"]);
@@ -67,6 +79,10 @@ public class Block : MonoBehaviour {
 		westWalls.Add ("JRight", walls ["WRJoin"]);
 		westWalls.Add ("JTop", walls ["WTJoin"]);
 		westWalls.Add ("JBottom", walls ["WBJoin"]);
+		westWalls.Add ("TL", walls ["WTLWall"]);
+		westWalls.Add ("TR", walls ["WTRWall"]);
+		westWalls.Add ("BL", walls ["WBLWall"]);
+		westWalls.Add ("BR", walls ["WBRWall"]);
 
 		upWalls = new Dictionary<string,GameObject> ();
 		upWalls.Add ("Wall", walls ["Top"]);
@@ -78,6 +94,10 @@ public class Block : MonoBehaviour {
 		upWalls.Add ("JEast", walls ["TEJoin"]);
 		upWalls.Add ("JSouth", walls ["TSJoin"]);
 		upWalls.Add ("JWest", walls ["TWJoin"]);
+		upWalls.Add ("NE", walls ["NETWall"]);
+		upWalls.Add ("NW", walls ["NWTWall"]);
+		upWalls.Add ("SE", walls ["SETWall"]);
+		upWalls.Add ("SW", walls ["SWTWall"]);
 
 		downWalls = new Dictionary<string,GameObject> ();
 		downWalls.Add ("Wall", walls ["Bottom"]);
@@ -89,6 +109,10 @@ public class Block : MonoBehaviour {
 		downWalls.Add ("JEast", walls ["BEJoin"]);
 		downWalls.Add ("JSouth", walls ["BSJoin"]);
 		downWalls.Add ("JWest", walls ["BWJoin"]);
+		downWalls.Add ("NE", walls ["NEBWall"]);
+		downWalls.Add ("NW", walls ["NWBWall"]);
+		downWalls.Add ("SE", walls ["SEBWall"]);
+		downWalls.Add ("SW", walls ["SWBWall"]);
 
 		northWalls["Left"].SetActive (false);
 		northWalls["Right"].SetActive (false);
@@ -98,6 +122,10 @@ public class Block : MonoBehaviour {
 		northWalls["JRight"].SetActive (false);
 		northWalls["JTop"].SetActive (false);
 		northWalls["JBottom"].SetActive (false);
+		northWalls["TL"].SetActive (false);
+		northWalls["TR"].SetActive (false);
+		northWalls["BL"].SetActive (false);
+		northWalls["BR"].SetActive (false);
 
 		eastWalls["Left"].SetActive (false);
 		eastWalls["Right"].SetActive (false);
@@ -107,6 +135,10 @@ public class Block : MonoBehaviour {
 		eastWalls["JRight"].SetActive (false);
 		eastWalls["JTop"].SetActive (false);
 		eastWalls["JBottom"].SetActive (false);
+		eastWalls["TL"].SetActive (false);
+		eastWalls["TR"].SetActive (false);
+		eastWalls["BL"].SetActive (false);
+		eastWalls["BR"].SetActive (false);
 
 		southWalls["Left"].SetActive (false);
 		southWalls["Right"].SetActive (false);
@@ -116,6 +148,10 @@ public class Block : MonoBehaviour {
 		southWalls["JRight"].SetActive (false);
 		southWalls["JTop"].SetActive (false);
 		southWalls["JBottom"].SetActive (false);
+		southWalls["TL"].SetActive (false);
+		southWalls["TR"].SetActive (false);
+		southWalls["BL"].SetActive (false);
+		southWalls["BR"].SetActive (false);
 
 		westWalls["Left"].SetActive (false);
 		westWalls["Right"].SetActive (false);
@@ -125,6 +161,10 @@ public class Block : MonoBehaviour {
 		westWalls["JRight"].SetActive (false);
 		westWalls["JTop"].SetActive (false);
 		westWalls["JBottom"].SetActive (false);
+		westWalls["TL"].SetActive (false);
+		westWalls["TR"].SetActive (false);
+		westWalls["BL"].SetActive (false);
+		westWalls["BR"].SetActive (false);
 
 		upWalls["North"].SetActive (false);
 		upWalls["East"].SetActive (false);
@@ -134,6 +174,10 @@ public class Block : MonoBehaviour {
 		upWalls["JEast"].SetActive (false);
 		upWalls["JSouth"].SetActive (false);
 		upWalls["JWest"].SetActive (false);
+		upWalls["NE"].SetActive (false);
+		upWalls["NW"].SetActive (false);
+		upWalls["SE"].SetActive (false);
+		upWalls["SW"].SetActive (false);
 
 		downWalls["North"].SetActive (false);
 		downWalls["East"].SetActive (false);
@@ -143,6 +187,10 @@ public class Block : MonoBehaviour {
 		downWalls["JEast"].SetActive (false);
 		downWalls["JSouth"].SetActive (false);
 		downWalls["JWest"].SetActive (false);
+		downWalls["NE"].SetActive (false);
+		downWalls["NW"].SetActive (false);
+		downWalls["SE"].SetActive (false);
+		downWalls["SW"].SetActive (false);
 
 		UpdateWalls (true);
 	}
@@ -175,6 +223,15 @@ public class Block : MonoBehaviour {
 		Index3 wtIndex = gc.PositionToIndex (transform.localPosition + Vector3.left + Vector3.up);
 		Index3 wbIndex = gc.PositionToIndex (transform.localPosition + Vector3.left + Vector3.down);
 
+		Index3 netIndex = gc.PositionToIndex (transform.localPosition + Vector3.forward + Vector3.right + Vector3.up);
+		Index3 nebIndex = gc.PositionToIndex (transform.localPosition + Vector3.forward + Vector3.right + Vector3.down);
+		Index3 nwtIndex = gc.PositionToIndex (transform.localPosition + Vector3.forward + Vector3.left + Vector3.up);
+		Index3 nwbIndex = gc.PositionToIndex (transform.localPosition + Vector3.forward + Vector3.left + Vector3.down);
+		Index3 setIndex = gc.PositionToIndex (transform.localPosition + Vector3.back + Vector3.right + Vector3.up);
+		Index3 sebIndex = gc.PositionToIndex (transform.localPosition + Vector3.back + Vector3.right + Vector3.down);
+		Index3 swtIndex = gc.PositionToIndex (transform.localPosition + Vector3.back + Vector3.left + Vector3.up);
+		Index3 swbIndex = gc.PositionToIndex (transform.localPosition + Vector3.back + Vector3.left + Vector3.down);
+
 		Block north = gc.GetBlock (northIndex);
 		Block east = gc.GetBlock (eastIndex);
 		Block south = gc.GetBlock (southIndex);
@@ -197,6 +254,15 @@ public class Block : MonoBehaviour {
 		Block wt = gc.GetBlock (wtIndex);
 		Block wb = gc.GetBlock (wbIndex);
 
+		Block net = gc.GetBlock (netIndex);
+		Block neb = gc.GetBlock (nebIndex);
+		Block nwt = gc.GetBlock (nwtIndex);
+		Block nwb = gc.GetBlock (nwbIndex);
+		Block set = gc.GetBlock (setIndex);
+		Block seb = gc.GetBlock (sebIndex);
+		Block swt = gc.GetBlock (swtIndex);
+		Block swb = gc.GetBlock (swbIndex);
+
 		northWalls ["Wall"].SetActive (north == null);
 		northWalls ["Left"].SetActive (north != null && nw == null && west == null);
 		northWalls ["Right"].SetActive (north != null && ne == null && east == null);
@@ -206,6 +272,11 @@ public class Block : MonoBehaviour {
 		northWalls ["JRight"].SetActive (north != null && ne != null && east == null);
 		northWalls ["JTop"].SetActive (north != null && nt != null && up == null);
 		northWalls ["JBottom"].SetActive (north != null && nb != null && down == null);
+		northWalls ["TL"].SetActive (north != null && nw == null && west == null && nt == null && up == null);
+		northWalls ["TR"].SetActive (north != null && ne == null && east == null && nt == null && up == null);
+		northWalls ["BL"].SetActive (north != null && nw == null && west == null && nb == null && down == null);
+		northWalls ["BR"].SetActive (north != null && ne == null && east == null && nb == null && down == null);
+
 
 		southWalls ["Wall"].SetActive (south == null);
 		southWalls ["Left"].SetActive (south != null && se == null && east == null);
@@ -216,6 +287,10 @@ public class Block : MonoBehaviour {
 		southWalls ["JRight"].SetActive (south != null && sw != null && west == null);
 		southWalls ["JTop"].SetActive (south != null && st != null && up == null);
 		southWalls ["JBottom"].SetActive (south != null && sb != null && down == null);
+		southWalls ["TL"].SetActive (south != null && se == null && east == null && st == null && up == null);
+		southWalls ["TR"].SetActive (south != null && sw == null && west == null && st == null && up == null);
+		southWalls ["BL"].SetActive (south != null && se == null && east == null && sb == null && down == null);
+		southWalls ["BR"].SetActive (south != null && sw == null && west == null && sb == null && down == null);
 
 		eastWalls ["Wall"].SetActive (east == null);
 		eastWalls ["Left"].SetActive (east != null && ne == null && north == null);
@@ -226,6 +301,10 @@ public class Block : MonoBehaviour {
 		eastWalls ["JRight"].SetActive (east != null && se != null && south == null);
 		eastWalls ["JTop"].SetActive (east != null && et != null && up == null);
 		eastWalls ["JBottom"].SetActive (east != null && eb != null && down == null);
+		eastWalls ["TL"].SetActive (east != null && ne == null && north == null && et == null && up == null);
+		eastWalls ["TR"].SetActive (east != null && se == null && south == null && et == null && up == null);
+		eastWalls ["BL"].SetActive (east != null && ne == null && north == null && eb == null && down == null);
+		eastWalls ["BR"].SetActive (east != null && se == null && south == null && eb == null && down == null);
 
 		westWalls ["Wall"].SetActive (west == null);
 		westWalls ["Left"].SetActive (west != null && sw == null && south == null);
@@ -236,6 +315,10 @@ public class Block : MonoBehaviour {
 		westWalls ["JRight"].SetActive (west != null && nw != null && north == null);
 		westWalls ["JTop"].SetActive (west != null && wt != null && up == null);
 		westWalls ["JBottom"].SetActive (west != null && wb != null && down == null);
+		westWalls ["TL"].SetActive (west != null && sw == null && south == null && wt == null && up == null);
+		westWalls ["TR"].SetActive (west != null && nw == null && north == null && wt == null && up == null);
+		westWalls ["BL"].SetActive (west != null && sw == null && south == null && wb == null && down == null);
+		westWalls ["BR"].SetActive (west != null && nw == null && north == null && wb == null && down == null);
 
 		upWalls ["Wall"].SetActive (up == null);
 		upWalls ["North"].SetActive (up != null && nt == null && north == null);
@@ -246,6 +329,10 @@ public class Block : MonoBehaviour {
 		upWalls ["JSouth"].SetActive (up != null && st != null && south == null);
 		upWalls ["JEast"].SetActive (up != null && et != null && east == null);
 		upWalls ["JWest"].SetActive (up != null && wt != null && west == null);
+		upWalls ["NE"].SetActive (up != null && north == null && east == null && nt == null && et == null);
+		upWalls ["NW"].SetActive (up != null && north == null && west == null && nt == null && wt == null);
+		upWalls ["SE"].SetActive (up != null && south == null && east == null && st == null && et == null);
+		upWalls ["SW"].SetActive (up != null && south == null && west == null && st == null && wt == null);
 
 		downWalls ["Wall"].SetActive (down == null);
 		downWalls ["North"].SetActive (down != null && nb == null && north == null);
@@ -256,6 +343,10 @@ public class Block : MonoBehaviour {
 		downWalls ["JSouth"].SetActive (down != null && sb != null && south == null);
 		downWalls ["JEast"].SetActive (down != null && eb != null && east == null);
 		downWalls ["JWest"].SetActive (down != null && wb != null && west == null);
+		downWalls ["NE"].SetActive (down != null && north == null && east == null && nb == null && eb == null);
+		downWalls ["NW"].SetActive (down != null && north == null && west == null && nb == null && wb == null);
+		downWalls ["SE"].SetActive (down != null && south == null && east == null && sb == null && eb == null);
+		downWalls ["SW"].SetActive (down != null && south == null && west == null && sb == null && wb == null);
 
 		walls ["NE"].SetActive (north == null && east == null);
 		walls ["NW"].SetActive (north == null && west == null);
