@@ -277,6 +277,15 @@ public class Block : MonoBehaviour {
 		northWalls ["CEB"].SetActive (north == null && east != null && down != null);
 		northWalls ["CWT"].SetActive (north == null && west != null && up != null);
 		northWalls ["CWB"].SetActive (north == null && west != null && down != null);
+		northWalls ["ET"].SetActive (north != null && ne != null);
+		northWalls ["EB"].SetActive (north != null && ne != null);
+		northWalls ["WT"].SetActive (north != null && nw != null);
+		northWalls ["WB"].SetActive (north != null && nw != null);
+		northWalls ["TE"].SetActive (north != null && nt != null);
+		northWalls ["TW"].SetActive (north != null && nt != null);
+		northWalls ["BE"].SetActive (north != null && nb != null);
+		northWalls ["BW"].SetActive (north != null && nb != null);
+
 
 		southWalls ["Wall"].SetActive (south == null);
 		southWalls ["Left"].SetActive (south != null && se == null && east == null);
@@ -295,6 +304,14 @@ public class Block : MonoBehaviour {
 		southWalls ["CEB"].SetActive (south == null && east != null && down != null);
 		southWalls ["CWT"].SetActive (south == null && west != null && up != null);
 		southWalls ["CWB"].SetActive (south == null && west != null && down != null);
+		southWalls ["ET"].SetActive (south != null && se != null);
+		southWalls ["EB"].SetActive (south != null && se != null);
+		southWalls ["WT"].SetActive (south != null && sw != null);
+		southWalls ["WB"].SetActive (south != null && sw != null);
+		southWalls ["TE"].SetActive (south != null && st != null);
+		southWalls ["TW"].SetActive (south != null && st != null);
+		southWalls ["BE"].SetActive (south != null && sb != null);
+		southWalls ["BW"].SetActive (south != null && sb != null);
 
 		eastWalls ["Wall"].SetActive (east == null);
 		eastWalls ["Left"].SetActive (east != null && ne == null && north == null);
@@ -313,6 +330,14 @@ public class Block : MonoBehaviour {
 		eastWalls ["CNB"].SetActive (east == null && north != null && down != null);
 		eastWalls ["CST"].SetActive (east == null && south != null && up != null);
 		eastWalls ["CSB"].SetActive (east == null && south != null && down != null);
+		eastWalls ["NT"].SetActive (east != null && ne != null);
+		eastWalls ["NB"].SetActive (east != null && ne != null);
+		eastWalls ["ST"].SetActive (east != null && se != null);
+		eastWalls ["SB"].SetActive (east != null && se != null);
+		eastWalls ["TN"].SetActive (east != null && et != null);
+		eastWalls ["TS"].SetActive (east != null && et != null);
+		eastWalls ["BN"].SetActive (east != null && eb != null);
+		eastWalls ["BS"].SetActive (east != null && eb != null);
 
 		westWalls ["Wall"].SetActive (west == null);
 		westWalls ["Left"].SetActive (west != null && sw == null && south == null);
@@ -331,6 +356,14 @@ public class Block : MonoBehaviour {
 		westWalls ["CNB"].SetActive (west == null && north != null && down != null);
 		westWalls ["CST"].SetActive (west == null && south != null && up != null);
 		westWalls ["CSB"].SetActive (west == null && south != null && down != null);
+		westWalls ["NT"].SetActive (west != null && nw != null);
+		westWalls ["NB"].SetActive (west != null && nw != null);
+		westWalls ["ST"].SetActive (west != null && sw != null);
+		westWalls ["SB"].SetActive (west != null && sw != null);
+		westWalls ["TN"].SetActive (west != null && wt != null);
+		westWalls ["TS"].SetActive (west != null && wt != null);
+		westWalls ["BN"].SetActive (west != null && wb != null);
+		westWalls ["BS"].SetActive (west != null && wb != null);
 
 		upWalls ["Wall"].SetActive (up == null);
 		upWalls ["North"].SetActive (up != null && nt == null && north == null);
@@ -349,6 +382,14 @@ public class Block : MonoBehaviour {
 		upWalls ["CNW"].SetActive (up == null && north != null && west != null);
 		upWalls ["CSE"].SetActive (up == null && south != null && east != null);
 		upWalls ["CSW"].SetActive (up == null && south != null && west != null);
+		upWalls ["TNE"].SetActive (up != null && nt != null);
+		upWalls ["TNW"].SetActive (up != null && nt != null);
+		upWalls ["TSE"].SetActive (up != null && st != null);
+		upWalls ["TSW"].SetActive (up != null && st != null);
+		upWalls ["TEN"].SetActive (up != null && et != null);
+		upWalls ["TES"].SetActive (up != null && et != null);
+		upWalls ["TWN"].SetActive (up != null && wt != null);
+		upWalls ["TWS"].SetActive (up != null && wt != null);
 
 		downWalls ["Wall"].SetActive (down == null);
 		downWalls ["North"].SetActive (down != null && nb == null && north == null);
@@ -367,6 +408,14 @@ public class Block : MonoBehaviour {
 		downWalls ["CNW"].SetActive (down == null && north != null && west != null);
 		downWalls ["CSE"].SetActive (down == null && south != null && east != null);
 		downWalls ["CSW"].SetActive (down == null && south != null && west != null);
+		downWalls ["BNE"].SetActive (down != null && nb != null);
+		downWalls ["BNW"].SetActive (down != null && nb != null);
+		downWalls ["BSE"].SetActive (down != null && sb != null);
+		downWalls ["BSW"].SetActive (down != null && sb != null);
+		downWalls ["BEN"].SetActive (down != null && eb != null);
+		downWalls ["BES"].SetActive (down != null && eb != null);
+		downWalls ["BWN"].SetActive (down != null && wb != null);
+		downWalls ["BWS"].SetActive (down != null && wb != null);
 
 		walls ["NE"].SetActive (north == null && east == null);
 		walls ["NW"].SetActive (north == null && west == null);
