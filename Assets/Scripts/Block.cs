@@ -461,6 +461,15 @@ public class Block : MonoBehaviour {
 			if(eb != null) eb.UpdateWalls ();
 			if(wt != null) wt.UpdateWalls ();
 			if(wb != null) wb.UpdateWalls ();
+
+			if (net != null) net.UpdateWalls ();
+			if (neb != null) neb.UpdateWalls ();
+			if (nwt != null) nwt.UpdateWalls ();
+			if (nwb != null) nwb.UpdateWalls ();
+			if (set != null) set.UpdateWalls ();
+			if (seb != null) seb.UpdateWalls ();
+			if (swt != null) swt.UpdateWalls ();
+			if (swb != null) swb.UpdateWalls ();
 		}
 	}
 	
